@@ -1,0 +1,442 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Furniture Website</title>
+ <link rel="stylesheet" href="css/bootstrap.min.css">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/all.css">
+<link rel="stylesheet" href="css/bootstrap-icons.css">
+
+
+<style>
+body {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+
+.navbar {
+  padding: 15px;
+}
+
+.nav-link {
+  position: relative;
+  margin-left: 20px;
+  transition: 0.3s;
+}
+
+.nav-link:hover {
+  color: #0d6efd;
+}
+
+.nav-link::after {
+  content: "";
+  width: 0%;
+  height: 2px;
+  background: #0d6efd;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  transition: 0.3s;
+}
+
+.nav-link:hover::after {
+  width: 100%;
+}
+
+
+.hero {
+  background: #f5f5f5;
+  padding: 80px 0;
+}
+
+.hero-box {
+  background: #d9e6ef;
+  padding: 40px;
+  border-radius: 15px;
+  transition: 0.3s;
+}
+
+.hero-box:hover {
+  transform: translateY(-5px);
+}
+
+.btn {
+  border-radius: 25px;
+  transition: 0.3s;
+}
+
+.btn:hover {
+  transform: scale(1.05);
+}
+
+
+img {
+  transition: 0.4s;
+}
+
+img:hover {
+  transform: scale(1.05);
+}
+
+
+.section {
+  padding: 60px 0;
+}
+
+
+.about {
+  background: #eef2f5;
+}
+#contact {
+  background: #f8f9fa;
+}
+
+#contact form {
+  transition: 0.3s;
+}
+
+#contact form:hover {
+  transform: translateY(-5px);
+}
+
+
+.footer-modern {
+  background: linear-gradient(135deg, #0d2c3d, #1a3c5e);
+  color: #fff;
+  padding: 60px 0 20px;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+}
+
+
+.footer-cta {
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.footer-cta h3 {
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.cta-box {
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+  margin: auto;
+  background: rgba(255,255,255,0.1);
+  border-radius: 50px;
+  overflow: hidden;
+}
+
+.cta-box input {
+  border: none;
+  padding: 12px;
+  width: 70%;
+  background: transparent;
+  color: #fff;
+}
+
+.cta-box input::placeholder {
+  color: #ccc;
+}
+
+.cta-box button {
+  width: 30%;
+  border: none;
+  background: #fff;
+  color: #0d2c3d;
+  font-weight: 600;
+}
+
+
+.brand {
+  font-weight: 700;
+}
+
+
+.footer-modern ul {
+  list-style: none;
+  padding: 0;
+}
+
+.footer-modern ul li {
+  margin-bottom: 8px;
+  color: #ccc;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.footer-modern ul li:hover {
+  color: #fff;
+  transform: translateX(5px);
+}
+
+.social-box span {
+  font-size: 20px;
+  margin-right: 10px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.social-box span:hover {
+  transform: scale(1.2);
+}
+
+
+.footer-bottom {
+  text-align: center;
+  margin-top: 40px;
+  border-top: 1px solid rgba(255,255,255,0.2);
+  padding-top: 15px;
+  color: #ccc;
+}
+
+
+
+.card:hover {
+  transform: translateY(-8px);
+  transition: 0.3s;
+}
+
+</style>
+</head>
+
+<body>
+
+
+<nav class="navbar navbar-expand-lg bg-white shadow-sm position-sticky top-0 z-3">
+  <div class="container">
+    <a href="#" class="navbar-brand fw-bold text-primary">Furniture</a>
+
+    <button class="navbar-toggler" data-bs-toggle="collapse" data-bs-target="#nav">
+      ☰
+    </button>
+
+    <div class="collapse navbar-collapse" id="nav">
+      <ul class="navbar-nav ms-auto">
+        <li><a class="nav-link" href="#home">Home</a></li>
+        <li><a class="nav-link" href="#about">About</a></li>
+        <li><a class="nav-link" href="#services">Services</a></li>
+        <li><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+
+<section id="home" class="hero">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <div class="col-md-6">
+        <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511" class="img-fluid rounded">
+      </div>
+
+      <div class="col-md-6">
+        <div class="hero-box">
+          <small>New Arrival</small>
+          <h2 class="fw-bold">Discover Our New Collection</h2>
+          <p>Modern furniture for your dream home</p>
+          <button class="btn btn-primary">Buy Now</button>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section class="section text-center">
+  <div class="container">
+    <h3>Inspiration Collection</h3>
+
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <img src="https://images.unsplash.com/photo-1493666438817-866a91353ca9" class="img-fluid rounded">
+      </div>
+      <div class="col-md-4">
+        <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511" class="img-fluid rounded">
+      </div>
+      <div class="col-md-4">
+        <img src="https://images.unsplash.com/photo-1484101403633-562f891dc89a" class="img-fluid rounded">
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="about" class="section about">
+  <div class="container">
+    <div class="row align-items-center">
+
+      <div class="col-md-6">
+        <h3>Beautify Your Space</h3>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit.</p>
+        <button class="btn btn-primary">Learn More</button>
+      </div>
+
+      <div class="col-md-6">
+        <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e" class="img-fluid rounded">
+      </div>
+
+    </div>
+  </div>
+</section>
+
+
+<section id="services" class="section text-center">
+  <div class="container">
+    <h3>Browse The Range</h3>
+
+    <div class="row mt-4">
+      <div class="col-md-4">
+        <div class="card p-3">
+          <img src="https://images.unsplash.com/photo-1505691938895-1758d7feb511" class="img-fluid rounded">
+          <h5 class="mt-3">Dining</h5>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card p-3">
+          <img src="https://images.unsplash.com/photo-1493666438817-866a91353ca9" class="img-fluid rounded">
+          <h5 class="mt-3">Living</h5>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="card p-3">
+          <img src="https://images.unsplash.com/photo-1484101403633-562f891dc89a" class="img-fluid rounded">
+          <h5 class="mt-3">Bedroom</h5>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+<section id="contact" class="section">
+  <div class="container">
+    <div class="row">
+
+   
+      <div class="col-md-6">
+        <h3 class="mb-4">Get In Touch</h3>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Feel free to contact us anytime.</p>
+
+        <div class="mt-4">
+          <p><strong><i class="fa-solid fa-location-dot"></i> Address:</strong> Ahmedabad, Gujarat, India</p>
+          <p><strong><i class="fa-solid fa-phone"></i> Phone:</strong> +91 9876543210</p>
+          <p><strong><i class="fa-solid fa-envelope"></i> Email:</strong> support@furniture.com</p>
+          <p><strong><i class="bi bi-clock-fill"></i> Working Hours:</strong> Mon - Sat (9AM - 7PM)</p>
+        </div>
+      </div>
+
+   
+      <div class="col-md-6">
+        <form class="p-4 shadow rounded bg-white">
+
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Your Name" required>
+          </div>
+
+          <div class="mb-3">
+            <input type="email" class="form-control" placeholder="Your Email" required>
+          </div>
+
+          <div class="mb-3">
+            <input type="text" class="form-control" placeholder="Subject">
+          </div>
+
+          <div class="mb-3">
+            <textarea class="form-control" rows="4" placeholder="Your Message"></textarea>
+          </div>
+
+          <button class="btn btn-primary w-100">Send Message</button>
+
+        </form>
+      </div>
+
+    </div>
+
+  
+    <div class="mt-5">
+      <iframe 
+        src="https://maps.google.com/maps?q=Ahmedabad&t=&z=13&ie=UTF8&iwloc=&output=embed"
+        width="100%" height="300" style="border:0; border-radius:10px;">
+      </iframe>
+    </div>
+
+  </div>
+</section>
+
+<footer class="footer-modern">
+  <div class="container">
+
+  
+    <div class="footer-cta">
+      <h3>Let’s Make Your Home Beautiful</h3>
+      <div class="cta-box">
+        <input type="email" placeholder="Enter your email">
+        <button>Subscribe</button>
+      </div>
+    </div>
+
+    <div class="row mt-5">
+
+     
+      <div class="col-md-4">
+        <h2 class="brand">Furniture</h2>
+        <p>Premium furniture for modern lifestyle. Make your space aesthetic & comfortable.</p>
+      </div>
+
+    
+      <div class="col-md-2">
+        <h6>Quick Links</h6>
+        <ul>
+          <li>Home</li>
+          <li>Shop</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+
+      
+      <div class="col-md-2">
+        <h6>Categories</h6>
+        <ul>
+          <li>Dining</li>
+          <li>Living</li>
+          <li>Bedroom</li>
+          <li>Office</li>
+        </ul>
+      </div>
+
+   
+      <div class="col-md-4">
+        <h6>Follow Us</h6>
+        <div class="social-box">
+          <span><i class="fa-brands fa-whatsapp"></i></span>
+          <span><i class="fa-brands fa-facebook"></i></span>
+          <span><i class="fa-brands fa-instagram"></i></span>
+          <span><i class="fa-brands fa-threads"></i></span>
+        </div>
+      </div>
+
+    </div>
+
+   
+    <div class="footer-bottom">
+      <p>© 2026 Furniture • Designed by You 😎</p>
+    </div>
+
+  </div>
+</footer>
+
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

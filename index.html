@@ -1,330 +1,205 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <title>Nova Studio</title>
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-      font-family: 'Poppins', sans-serif;
-    }
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshay Portfolio</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="akshay2.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
 
-    body {
-      background: linear-gradient(135deg, #0f172a, #1e293b, #111827);
-      color: white;
-      min-height: 100vh;
-      overflow-x: hidden;
-    }
+    <!-- Google Font -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet"> -->
 
-    .container {
-      width: 90%;
-      max-width: 1200px;
-      margin: auto;
-    }
 
-    header {
-      padding: 25px 0;
-      position: sticky;
-      top: 0;
-      backdrop-filter: blur(12px);
-      background: rgba(15, 23, 42, 0.6);
-      z-index: 100;
-    }
+</head> 
 
-    nav {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-    }
-
-    .logo {
-      font-size: 28px;
-      font-weight: 700;
-      color: #38bdf8;
-    }
-
-    .nav-links {
-      display: flex;
-      gap: 30px;
-      list-style: none;
-    }
-
-    .nav-links a {
-      color: white;
-      text-decoration: none;
-      transition: 0.3s;
-    }
-
-    .nav-links a:hover {
-      color: #38bdf8;
-    }
-
-    .hero {
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      min-height: 90vh;
-      gap: 50px;
-      flex-wrap: wrap;
-    }
-
-    .hero-text {
-      flex: 1;
-      min-width: 300px;
-    }
-
-    .hero-text h1 {
-      font-size: 64px;
-      line-height: 1.1;
-      margin-bottom: 20px;
-    }
-
-    .hero-text h1 span {
-      color: #38bdf8;
-    }
-
-    .hero-text p {
-      color: #cbd5e1;
-      font-size: 18px;
-      margin-bottom: 30px;
-      max-width: 550px;
-    }
-
-    .buttons {
-      display: flex;
-      gap: 15px;
-      flex-wrap: wrap;
-    }
-
-    .btn {
-      padding: 14px 28px;
-      border-radius: 12px;
-      text-decoration: none;
-      font-weight: 600;
-      transition: 0.3s;
-    }
-
-    .btn-primary {
-      background: #38bdf8;
-      color: #0f172a;
-    }
-
-    .btn-primary:hover {
-      background: #0ea5e9;
-      transform: translateY(-3px);
-    }
-
-    .btn-secondary {
-      border: 1px solid rgba(255,255,255,0.2);
-      color: white;
-      background: rgba(255,255,255,0.05);
-      backdrop-filter: blur(8px);
-    }
-
-    .btn-secondary:hover {
-      background: rgba(255,255,255,0.12);
-    }
-
-    .hero-image {
-      flex: 1;
-      display: flex;
-      justify-content: center;
-      min-width: 300px;
-    }
-
-    .glass-card {
-      width: 380px;
-      height: 380px;
-      border-radius: 30px;
-      background: rgba(255,255,255,0.08);
-      backdrop-filter: blur(18px);
-      border: 1px solid rgba(255,255,255,0.12);
-      box-shadow: 0 8px 40px rgba(0,0,0,0.4);
-      display: flex;
-      align-items: center;
-      justify-content: center;
-      position: relative;
-      overflow: hidden;
-    }
-
-    .glass-card::before {
-      content: "";
-      position: absolute;
-      width: 200px;
-      height: 200px;
-      background: #38bdf8;
-      border-radius: 50%;
-      filter: blur(70px);
-      opacity: 0.5;
-      top: -50px;
-      right: -50px;
-    }
-
-    .glass-card h2 {
-      font-size: 42px;
-      z-index: 2;
-    }
-
-    .features {
-      padding: 100px 0;
-    }
-
-    .section-title {
-      text-align: center;
-      margin-bottom: 60px;
-    }
-
-    .section-title h2 {
-      font-size: 42px;
-      margin-bottom: 10px;
-    }
-
-    .section-title p {
-      color: #94a3b8;
-    }
-
-    .feature-grid {
-      display: grid;
-      grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
-      gap: 25px;
-    }
-
-    .feature-card {
-      background: rgba(255,255,255,0.05);
-      border: 1px solid rgba(255,255,255,0.08);
-      padding: 30px;
-      border-radius: 24px;
-      transition: 0.3s;
-      backdrop-filter: blur(10px);
-    }
-
-    .feature-card:hover {
-      transform: translateY(-8px);
-      border-color: #38bdf8;
-    }
-
-    .feature-card h3 {
-      margin-bottom: 15px;
-      color: #38bdf8;
-    }
-
-    .feature-card p {
-      color: #cbd5e1;
-      line-height: 1.7;
-    }
-
-    footer {
-      text-align: center;
-      padding: 30px 0;
-      color: #94a3b8;
-      border-top: 1px solid rgba(255,255,255,0.08);
-      margin-top: 40px;
-    }
-
-    @media (max-width: 768px) {
-      .hero {
-        text-align: center;
-        padding-top: 50px;
-      }
-
-      .hero-text h1 {
-        font-size: 46px;
-      }
-
-      .buttons {
-        justify-content: center;
-      }
-
-      .nav-links {
-        display: none;
-      }
-
-      .glass-card {
-        width: 100%;
-        max-width: 320px;
-        height: 320px;
-      }
-    }
-  </style>
-</head>
 <body>
 
-  <header>
-    <div class="container">
-      <nav>
-        <div class="logo">NovaStudio</div>
-        <ul class="nav-links">
-          <li><a href="#">Home</a></li>
-          <li><a href="#features">Features</a></li>
-          <li><a href="#">Services</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
-    </div>
-  </header>
+    <header class="position-sticky top-0 shadow-sm bg-white" style="z-index: 999;">
+        
+        <a href="/akshay2portfolio.html" class="logo text-decoration-none list-unstyled">Akshay<span> Bloom</span></a>
+        <nav>
+            <a href="/index.html" class="active">Home</a>
+            <a href="/mystorypage.html">My Story</a>
+            <a href="/projectpage.html">Projects</a>
+            <a href="/contactpage.html">Contact</a>+
+            
+        </nav>
+    </header>
 
-  <section class="hero container">
-    <div class="hero-text">
-      <h1>Build Stunning <span>Websites</span> Fast</h1>
-      <p>
-        Modern responsive website template built using only HTML and CSS.
-        Perfect for startups, portfolios, agencies, and creative brands.
-      </p>
-
-      <div class="buttons">
-        <a href="#" class="btn btn-primary">Get Started</a>
-        <a href="#features" class="btn btn-secondary">Explore</a>
-      </div>
-    </div>
-
-    <div class="hero-image">
-      <div class="glass-card">
-        <h2>Creative UI</h2>
-      </div>
-    </div>
-  </section>
-
-  <section class="features" id="features">
-    <div class="container">
-      <div class="section-title">
-        <h2>Why Choose Us?</h2>
-        <p>Everything you need for a modern online presence.</p>
-      </div>
-
-      <div class="feature-grid">
-        <div class="feature-card">
-          <h3>Responsive Design</h3>
-          <p>
-            Fully responsive layouts that look amazing on desktop, tablet, and mobile devices.
-          </p>
+    <section class="hero animate__animated animate__fadeInLeft one">
+        <div class="hero-left">
+            <h4>Hey, I am Akshay Solanki</h4>
+            <h1>I Design Stuff That Actually Works.</h1>
+            <p>I am <span class="highlight">UI/UX Designer</span></p>
+            <a href="/contactpage.html" class="btn-contact-me text-decoration-none">Contact Me</a>
+            <a href="projectpage.html" class="btn-view-projects text-decoration-none">View Projects</a>
         </div>
 
-        <div class="feature-card">
-          <h3>Modern UI</h3>
-          <p>
-            Elegant glassmorphism effects, smooth animations, and clean typography.
-          </p>
+        <div class="hero-right">
+            <img src="img/udaipur.jpg" alt="Profile Image" loading="lazy">
         </div>
+    </section>
 
-        <div class="feature-card">
-          <h3>Fast Performance</h3>
-          <p>
-            Lightweight HTML and CSS code optimized for speed and user experience.
-          </p>
+
+
+    <section class="about" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="about-top">
+            <span class="story-dot"></span>
+            <p class="story-text mt-3">MY STORY</p>
         </div>
-      </div>
-    </div>
-  </section>
+        <hr>
 
-  <footer>
-    <p>© 2026 NovaStudio. All rights reserved.</p>
-  </footer>
+        <div class="about-content">
 
+            <div class="about-left">
+                <h2>ABOUT ME</h2>
+                <h1>
+                    Building Digital
+                    <span>Masterpieces</span>
+                </h1>
+            </div>
+
+            <div class="about-right">
+                <p class="big-text">
+                    I build accessible, pixel-perfect, and performant web experiences. Passionate about creating
+                    software that improves the lives of those around me.
+                </p>
+
+                <p class="small-text">
+                    Enthusiastic and detail-oriented web designer with a strong foundation
+                    in front-end development, UI/UX design, and web technologies.
+                    Committed to delivering high-quality code and continuously improving user experience.
+                </p>
+
+                <a href="/mystorypage.html" class="learn-btn text-decoration-none">
+                    Learn More <i class="fa-solid fa-location-arrow"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="expertise" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="">
+
+            <div class="section-top">
+                <span class="story-dot"></span>
+                <p class="mt-3">TECHNICAL STACK</p>
+            </div>
+
+            <hr>
+
+            <h2 class="title">MY SKILLS</h2>
+
+            <div>
+                <div class="expertise-icon">
+                    <div class="row row-gap-4">
+                        <div class="icon-box col-md-3"><i class="fa-brands fa-html5"></i><span> HTML5</span></div>
+                        <div class="icon-box col-md-3"><i class="fa-brands fa-css3-alt"></i><span> CSS</span></div>
+                        <div class="icon-box col-md-3"><i class="fa-brands fa-figma"></i><span> Figma</span></div>
+                        <div class="icon-box col-md-3"><i class="fa-brands fa-bootstrap"></i><span> Bootstrap 5</span>
+                        </div>
+
+                        <div class="icon-box col-md-3"><i><img src="img/Untitled.png" class="img-fluid "
+                                    style="filter: invert(100%);" alt=""></i><span> jQuery</span></div>
+                        <div class="icon-box col-md-3"><i class="fa-brands fa-js"></i><span> JavaScript</span></div>
+                        <div class="icon-box col-md-3"><i class="fa-solid fa-code"></i><span> VS Code</span></div>
+                        <div class="icon-box col-md-3"><i class="fa-brands fa-github"></i><span> GitHub</span></div>
+
+                        <div class="icon-box col-md-3"><i><img src="img/wand-sparkles.svg" style="filter: invert(100%);"
+                                    alt="">
+                            </i><span> UI/UX Design</span>
+                        </div>
+                        <div class="icon-box col-md-3"><i class="fa-solid fa-microchip"></i><span> Generative AI</span>
+                        </div>
+
+
+
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+  <h2>Do you want to know more about me?</h2>
+  
+  <a href="img/resume pdf.pdf" download class="btn">
+    <i class="fa-solid fa-download"></i> Download CV
+  </a>
+</section>
+
+
+    <section class="contact" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="">
+
+            <div class="section-top">
+                <span class="story-dot"></span>
+                <p class="mt-3">LET'S TALK</p>
+            </div>
+
+            <hr>
+
+            <div class="contact-wrapper">
+
+                <div class="left">
+                    <h1 class="logo-2">
+                        Akshay<span> Bloom</span>
+                    </h1>
+
+                    <p class="tagline">
+                        Crafting timeless brands with purpose.
+                    </p>
+
+                    <img src="img/udaipur2.jpg" alt="profile" class="profile-img">
+                </div>
+
+                <div class="right">
+                    <h2>Let's Work Together</h2>
+                    <a href="mailto:solankiakshay8980@gmail.com" class="email">
+                        solankiakshay8980@gmail.com
+                    </a>
+
+                    <h3>Follow Me</h3>
+
+                    <div class="socials">
+                        <a href="https://wa.me/918980309507" target="_blank" class="icon text-decoration-none"><i
+                                class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.linkedin.com/in/solanki-akshay-2384b4353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            target="_blank" class="icon text-decoration-none"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/akshaysolanki.akshaysolanki.7" target="_blank" class="icon text-decoration-none"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/akshay_solanki_4075?igsh=ODZkOGkwYTV2OTdy" target="_blank"
+                            class="icon text-decoration-none"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <hr class="bottom-line">
+                    <p class="copyright">
+                        © Copyright: 2026 , All Right Reserved <i class="fa-solid fa-heart"></i> Designed By - Akshay
+                        Bloom
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section></section>
+
+    <script src="js/aos.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
 </body>
+
 </html>

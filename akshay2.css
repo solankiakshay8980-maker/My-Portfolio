@@ -75,40 +75,43 @@ nav a.active {
   margin-bottom: 30px;
 }
 .btn-contact-me{
-  color: #fff;
   padding:10px 20px;
-  background-color: #000000;
-  border: 0;
-  border-radius: 25px;
-  font-size: 16px;
-  font-weight: 500;
-  display: inline-block;
-  margin-top: 10px;
+  background:#7ED321;
+  color:#000;
+  border:2px solid #7ED321;
+  border-radius:25px;
+  font-size:16px;
+  font-weight:500;
+  transition:0.4s ease;
+}
+
+.btn-contact-me:hover{
+  background:transparent;
+  color:#7ED321;
+  box-shadow:0 0 15px rgba(126,211,33,0.5);
 }
 .btn-contact-me {
   color: #fff;
 }
-.btn-contact-me:hover{
-  background-color: #7ED321;
-  transition: 0.5s;
-}
 .btn-view-projects{
-  color: #000000;
-  padding:10px 20px;
-  background-color: #fff;
-  border: 1px solid black;
-  border-radius: 25px;
+  background: #fff;
+  color: #000;
+  padding: 12px 32px;
+  border: 2px solid #fff;
+  border-radius: 50px;
   font-size: 16px;
-  font-weight: 500;
+  font-weight: 600;
+  transition: 0.4s ease;
 }
-.btn-view-projects {
-  color: #000000;
-}
-.btn-view-projects:hover{
-  background-color: #000000;
-  color: #fff;
-  transition: 0.5s;
 
+.btn-view-projects:hover{
+  background: #000;
+  color: #7ED321;
+  border-color: #7ED321;
+  transform: translateY(-5px) scale(1.05);
+  box-shadow:
+    0 0 10px rgba(126,211,33,0.4),
+    0 0 25px rgba(126,211,33,0.3);
 }
 
 .highlight {
@@ -312,6 +315,7 @@ hr {
   display: flex;
   gap: 10px;
   align-items: center;
+  transition: 0.5s;
 
 }
 
@@ -331,11 +335,37 @@ hr {
   font-size: 20px;
 }
 
-.expertise-icon .icon-box:hover {
+
+/* .expertise-icon .icon-box:hover {
   background-color: black;
   color: #fff;
   transform: rotate(-3deg);
   transition: 0.5s;
+} */
+ .expertise-icon .icon-box{
+  transition: 0.5s;
+  transform-style: preserve-3d;
+}
+
+.expertise-icon .icon-box:hover{
+  transform: perspective(1000px) rotateX(10deg) rotateY(-10deg);
+  box-shadow: 0 20px 25px rgba(0,0,0,0.3);
+}
+ .expertise-icon .icon-box{
+  transition: 0.4s;
+}
+
+.expertise-icon .icon-box i{
+  transition: 0.5s;
+}
+
+.expertise-icon .icon-box:hover{
+  background: #76c900;
+  color: #fff;
+}
+
+.expertise-icon .icon-box:hover i{
+  transform: rotate(360deg) scale(1.2);
 }
 
 

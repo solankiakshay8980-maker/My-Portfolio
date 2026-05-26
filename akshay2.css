@@ -1043,7 +1043,7 @@ background-color: #ffffff;
   .spotlight-content,
   .qualification-content,
   .contact-wrapper {
-    flex-direction: column;
+    flex-direction: column-reverse;
     gap: 40px;
     text-align: center;
   }

@@ -1071,12 +1071,20 @@ background-color: #ffffff;
   }
 
   .icon-box {
-    padding: 15px;
-    justify-content: center;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 18px 20px;
+  border: 1px solid #ddd;
+  border-radius: 12px;
+  background: #fff;
+  transition: 0.4s;
   }
 
   .expertise-icon span {
-    font-size: 16px;
+    font-size: 18px;
+  font-weight: 500;
+  white-space: nowrap;
   }
 
   .contact-title {
@@ -1164,6 +1172,18 @@ background-color: #ffffff;
   .icon {
     width: 45px;
     height: 45px;
+  }
+
+}
+
+@media (max-width:768px){
+
+  .icon-box{
+    width: 100%;
+  }
+
+  .expertise-icon span{
+    font-size: 16px;
   }
 
 }

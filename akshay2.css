@@ -1043,9 +1043,12 @@ background-color: #ffffff;
   .spotlight-content,
   .qualification-content,
   .contact-wrapper {
-    flex-direction: column-reverse;
+    flex-direction: column;
     gap: 40px;
     text-align: center;
+  }
+  .spotlight-content{
+  flex-direction: column-reverse;
   }
 
   .about-left h2,

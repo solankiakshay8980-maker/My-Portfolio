@@ -1,0 +1,1575 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshay Portfolio</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="akshay2.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Google Font -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet"> -->
+
+
+</head> 
+
+<body>
+
+    <header class="position-sticky top-0 shadow-sm bg-white" style="z-index: 999;">
+        
+        <a href="index.html" class="logo text-decoration-none list-unstyled">Akshay<span> Bloom</span></a>
+        <nav>
+            <a href="/index.html" class="active">Home</a>
+            <a href="/mystorypage.html">My Story</a>
+            <a href="/projectpage.html">Projects</a>
+            <a href="/contactpage.html">Contact</a>
+            
+        </nav>
+    </header>
+
+    <section class="hero animate__animated animate__fadeInLeft one">
+        <div class="hero-left">
+            <h4>Hey, I am Akshay Solanki</h4>
+            <h1>I Design Stuff That Actually Works.</h1>
+            <p>I am <span class="highlight">UI/UX Designer</span></p>
+            <a href="/contactpage.html" class="btn-contact-me text-decoration-none">Contact Me</a>
+            <a href="projectpage.html" class="btn-view-projects text-decoration-none">View Projects</a>
+        </div>
+
+        <div class="hero-right">
+            <img src="img/udaipur.jpg" alt="Profile Image" loading="lazy">
+        </div>
+    </section>
+
+
+
+    <section class="about" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="about-top">
+            <span class="story-dot"></span>
+            <p class="story-text mt-3">MY STORY</p>
+        </div>
+        <hr>
+
+        <div class="about-content">
+
+            <div class="about-left">
+                <h2>ABOUT ME</h2>
+                <h1>
+                    Building Digital
+                    <span>Masterpieces</span>
+                </h1>
+            </div>
+
+            <div class="about-right">
+                <p class="big-text">
+                    I build accessible, pixel-perfect, and performant web experiences. Passionate about creating
+                    software that improves the lives of those around me.
+                </p>
+
+                <p class="small-text">
+                    Enthusiastic and detail-oriented web designer with a strong foundation
+                    in front-end development, UI/UX design, and web technologies.
+                    Committed to delivering high-quality code and continuously improving user experience.
+                </p>
+
+                <a href="/mystorypage.html" class="learn-btn text-decoration-none">
+                    Learn More <i class="fa-solid fa-location-arrow"></i></a>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="expertise" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="">
+
+            <div class="section-top">
+                <span class="story-dot"></span>
+                <p class="mt-3">TECHNICAL STACK</p>
+            </div>
+
+            <hr>
+
+            <h2 class="title">MY SKILLS</h2>
+
+            <div>
+                <div class="expertise-icon">
+                    <div class="row g-4">
+                        <div class="icon-box col-md-3"><i class="fa-brands fa-html5"></i><span> HTML5</span></div>
+                        <div class="icon-box col-md-3"><i class="fa-brands fa-css3-alt"></i><span> CSS</span></div>
+                        <div class="icon-box col-md-3"><i class="fa-brands fa-figma"></i><span> Figma</span></div>
+                        <div class="icon-box col-md-3"><i class="fa-brands fa-bootstrap"></i><span> Bootstrap 5</span>
+                        </div>
+
+                        <div class="icon-box col-md-3"><i><img src="img/Untitled.png" class="img-fluid "
+                                    style="filter: invert(100%);" alt=""></i><span> jQuery</span></div>
+                        <div class="icon-box col-md-3"><i class="fa-brands fa-js"></i><span> JavaScript</span></div>
+                        <div class="icon-box col-md-3"><i class="fa-solid fa-code"></i><span> VS Code</span></div>
+                        <div class="icon-box col-md-3"><i class="fa-brands fa-github"></i><span> GitHub</span></div>
+
+                        <div class="icon-box col-md-3"><i class="fa-brands fa-artstation"></i><span> UI/UX Design</span>
+                        </div>
+                        <div class="icon-box col-md-3"><i class="fa-solid fa-microchip"></i><span> Generative AI</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="cta">
+  <h2>Do you want to know more about me?</h2>
+  
+  <a href="img/resume pdf.pdf" download class="btn">
+    <i class="fa-solid fa-download"></i> Download CV
+  </a>
+</section>
+
+
+    <section class="contact" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="">
+
+            <div class="section-top">
+                <span class="story-dot"></span>
+                <p class="mt-3">LET'S TALK</p>
+            </div>
+
+            <hr>
+
+            <div class="contact-wrapper">
+
+                <div class="left">
+                    <h1 class="logo-2">
+                        Akshay<span> Bloom</span>
+                    </h1>
+
+                    <p class="tagline">
+                        Crafting timeless brands with purpose.
+                    </p>
+
+                    <img src="img/udaipur2.jpg" alt="profile" class="profile-img">
+                </div>
+
+                <div class="right">
+                    <h2>Let's Work Together</h2>
+                    <a href="mailto:solankiakshay8980@gmail.com" class="email">
+                        solankiakshay8980@gmail.com
+                    </a>
+
+                    <h3>Follow Me</h3>
+
+                    <div class="socials">
+                        <a href="https://wa.me/918980309507" target="_blank" class="icon text-decoration-none"><i
+                                class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.linkedin.com/in/solanki-akshay-2384b4353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            target="_blank" class="icon text-decoration-none"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/akshaysolanki.akshaysolanki.7" target="_blank" class="icon text-decoration-none"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/akshay_solanki_4075?igsh=ODZkOGkwYTV2OTdy" target="_blank"
+                            class="icon text-decoration-none"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <hr class="bottom-line">
+                    <p class="copyright">
+                        © Copyright: 2026 , All Right Reserved <i class="fa-solid fa-heart"></i> Designed By - Akshay
+                        Bloom
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section></section>
+
+    <script src="js/aos.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Story</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="akshay2.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+      <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+    <header class="position-sticky top-0 shadow-sm bg-white" style="z-index: 999;">
+        <a href="index.html" class="logo text-decoration-none list-unstyled">Akshay<span> Bloom</span></a>
+        <nav>
+            <a href="/index.html" class="">Home</a>
+            <a href="/mystorypage.html" class="active">My Story</a>
+            <a href="/projectpage.html">Projects</a>
+            <a href="/contactpage.html">Contact</a>
+        </nav>
+    </header>
+
+    <section class="spotlight animate__animated animate__fadeInLeft one">
+        <div class="">
+
+            <div class="spotlight-content">
+                <div class="spotlight-left">
+                    <h1>I'M Akshay Solanki.</h1>
+
+                    <p class="big-text">
+                        I build accessible, pixel-perfect, and performant web experiences.
+                        Passionate about creating software that improves the lives of those around me.
+                    </p>
+
+                    <p class="small-text">
+                        Enthusiastic and detail-oriented web designer with a strong foundation in
+                        front-end development, UI/UX design, and web technologies. Proficient in
+                        creating robust, user-friendly web applications using modern frameworks.
+                        Committed to delivering high-quality code and continuously improving
+                        user experience.
+                    </p>
+
+                    <a href="/contactpage.html" class="btn-contact">
+                        Contact Now <i class="fa-solid fa-location-arrow"></i>
+                    </a>
+                </div>
+
+                <div class="spotlight-right">
+                    <img src="img/udaipur3.jpg" alt="Profile" loading="lazy">
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="qualification" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="">
+
+            <div class="qualification-top">
+                <span class="small-title">
+                    <span class="story-dot"></span> MY QUALIFICATION
+                </span>
+                <hr>
+            </div>
+
+            <div class="qualification-content">
+
+                <div class="qualification-left">
+                    <h1>EDUCATION</h1>
+                </div>
+
+                <div class="qualification-right" style="margin-left: 25%;">
+
+                    <div class="edu-item">
+                        <div class="year">2025–2026</div>
+                        <div class="details">
+                            <h3>UI/UX Design Certification</h3>
+                            <p>TCP India - IT and Software Training Institute in Mehsana</p>
+                        </div>
+                    </div>
+
+                    <div class="edu-item">
+                        <div class="year">2021–2024</div>
+                        <div class="details">
+                            <h3>Bachelor’s Degree (B.A)</h3>
+                            <p>Municipal Arts and Urban Bank Science College</p>
+                        </div>
+                    </div>
+
+                    <div class="edu-item">
+                        <div class="year">2020–2021</div>
+                        <div class="details active">
+                            <div class="circle"></div>
+                            <h3>Higher Secondary (12th Grade)</h3>
+                            <p>T.J.High School Mehsana</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+
+    <section class="contact" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="">
+
+            <div class="section-top">
+                <span class="story-dot"></span>
+                <p class="mt-3">LET'S TALK</p>
+            </div>
+
+            <hr>
+
+            <div class="contact-wrapper">
+
+                <div class="left">
+                    <h1 class="logo-2">
+                        Akshay<span> Bloom</span>
+                    </h1>
+
+                    <p class="tagline">
+                        Crafting timeless brands with purpose.
+                    </p>
+
+                    <img src="img/udaipur2.jpg" alt="profile" class="profile-img">
+                </div>
+
+                <div class="right">
+                    <h2>Let's Work Together</h2>
+                    <a href="mailto:solankiakshay8980@gmail.com" class="email">
+                        solankiakshay8980@gmail.com
+                    </a>
+
+                    <h3>Follow Me</h3>
+
+                    <div class="socials">
+                        <a href="https://wa.me/918980309507" target="_blank" class="icon text-decoration-none"><i
+                                class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.linkedin.com/in/solanki-akshay-2384b4353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            target="_blank" class="icon text-decoration-none"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/akshaysolanki.akshaysolanki.7" target="_blank" class="icon text-decoration-none"><i class="fa-brands fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/akshay_solanki_4075?igsh=ODZkOGkwYTV2OTdy" target="_blank"
+                            class="icon text-decoration-none"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <hr class="bottom-line">
+                    <p class="copyright">
+                        © Copyright: 2026 , All Right Reserved <i class="fa-solid fa-heart"></i> Designed By - Akshay
+                        Bloom
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Akshay Portfolio</title>
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="akshay2.css">
+    <link rel="stylesheet" href="css/bootstrap-icons.css">
+    <link rel="stylesheet" href="css/animate.min.css">
+    <link rel="stylesheet" href="css/aos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+
+    <!-- Google Font -->
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700;800&display=swap" rel="stylesheet"> -->
+
+
+</head>
+
+<body>
+
+    <header class="position-sticky top-0 shadow-sm bg-white" style="z-index: 999;">
+        <a href="index.html" class="logo text-decoration-none list-unstyled">Akshay<span> Bloom</span></a>
+        <nav>
+            <a href="/index.html" class="">Home</a>
+            <a href="/mystorypage.html">My Story</a>
+            <a href="/projectpage.html" class="active">Projects</a>
+            <a href="/contactpage.html">Contact</a>
+        </nav>
+    </header>
+
+   
+        <section class="projects animate__animated animate__fadeInLeft one">
+  <h2>My Projects</h2>
+
+  <div class="project-grid">
+
+    
+    <a href="/schoolhome.html" class="project big">
+      <img src="img/schoolhome.jpg" alt="">
+      <div class="overlay">
+        <h3>Project One</h3>
+        <p>Pineview Primary School website</p>
+      </div>
+    </a>
+    <a href="/project1portfolio.html" class="project big">
+      <img src="img/food.png" alt="">
+      <div class="overlay">
+        <h3>Project Two</h3>
+        <p>Food Delivery Website</p>
+      </div>
+    </a>
+    <a href="/project2portfolio.html" class="project big">
+      <img src="img/furniture.jfif" alt="">
+      <div class="overlay">
+        <h3>Project Three</h3>
+        <p>Furniture Website</p>
+      </div>
+    </a>
+    <a href="/afterbefore.html" class="project big">
+      <img src="img/after-before.png" alt="">
+      <div class="overlay">
+        <h3>Project Four</h3>
+        <p>Before & After Page</p>
+      </div>
+    </a>
+  </div>
+</section>
+
+
+    <section class="contact" data-aos="zoom-in" data-aos-duration="1000">
+        <div class="">
+
+            <div class="section-top">
+                <span class="story-dot"></span>
+                <p class="mt-3">LET'S TALK</p>
+            </div>
+
+            <hr>
+
+            <div class="contact-wrapper">
+
+                <div class="left">
+                    <h1 class="logo-2">
+                        Akshay<span> Bloom</span>
+                    </h1>
+
+                    <p class="tagline">
+                        Crafting timeless brands with purpose.
+                    </p>
+
+                    <img src="img/udaipur2.jpg" alt="profile" class="profile-img">
+                </div>
+
+                <div class="right">
+                    <h2>Let's Work Together</h2>
+                    <a href="mailto:solankiakshay8980@gmail.com" class="email">
+                        solankiakshay8980@gmail.com
+                    </a>
+
+                    <h3>Follow Me</h3>
+
+                    <div class="socials">
+                        <a href="https://wa.me/918980309507" target="_blank" class="icon text-decoration-none"><i
+                                class="fa-brands fa-whatsapp"></i></a>
+                        <a href="https://www.linkedin.com/in/solanki-akshay-2384b4353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+                            target="_blank" class="icon text-decoration-none"><i class="fa-brands fa-linkedin"></i></a>
+                        <a href="https://www.facebook.com/akshaysolanki.akshaysolanki.7" target="_blank" class="icon text-decoration-none"><i class="fa-brands fa-facebook"></i></a>
+                        
+                        <a href="https://www.instagram.com/akshay_solanki_4075?igsh=ODZkOGkwYTV2OTdy" target="_blank"
+                            class="icon text-decoration-none"><i class="fa-brands fa-instagram"></i></a>
+                    </div>
+                    <hr class="bottom-line">
+                    <p class="copyright">
+                        © Copyright: 2026 , All Right Reserved <i class="fa-solid fa-heart"></i> Designed By - Akshay
+                        Bloom
+                    </p>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+
+    <section></section>
+
+    <script src="js/aos.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script>
+        AOS.init();
+    </script>
+</body>
+
+</html>
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Contact</title>
+  <link rel="stylesheet" href="css/all.css">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="akshay2.css">
+  <link rel="stylesheet" href="css/bootstrap-icons.css">
+  <link rel="stylesheet" href="css/animate.min.css">
+  <link rel="stylesheet" href="css/aos.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100..900;1,100..900&display=swap"
+        rel="stylesheet">
+</head>
+
+<body>
+
+  <header class="position-sticky top-0 shadow-sm bg-white" style="z-index: 999;">
+    <a href="index.html" class="logo text-decoration-none list-unstyled">Akshay<span> Bloom</span></a>
+    <nav>
+      <a href="/index.html" class="">Home</a>
+      <a href="/mystorypage.html" class="">My Story</a>
+      <a href="/projectpage.html">Projects</a>
+      <a href="/contactpage.html" class="active">Contact</a>
+    </nav>
+  </header>
+
+
+  <section class="contact-section animate__animated animate__fadeInLeft one">
+    <div class="">
+
+      <h1 class="contact-title">
+        Let’s <br> Connect With Us!
+      </h1>
+
+      <div class="contact-boxes">
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fa-solid fa-phone"></i>
+          </div>
+          <div class="info">
+            <h3>Call Us</h3>
+            <p>+91 8980309507</p>
+          </div>
+        </div>
+
+
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fa-solid fa-envelope"></i>
+          </div>
+          <div class="info">
+            <h3>Mail Us</h3>
+            <p>akshaysolanki8980@gmail.com</p>
+          </div>
+        </div>
+
+
+        <div class="contact-card">
+          <div class="contact-icon">
+            <i class="fa-solid fa-location-dot"></i>
+          </div>
+          <div class="info">
+            <h3>Location</h3>
+            <p>Mehsana, Gujarat, 384-001, IND</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+  <section class="contact-area">
+    <div class="">
+
+      <div class="contact-wrapper">
+
+  
+        <div class="contact-form">
+
+          <form action="https://formspree.io/f/xwvnjdzr" method="POST">
+            <div class="form-group">
+              <input type="text" name="name" placeholder="Full Name" required>
+            </div>
+
+            <div class="form-group">
+              <input type="email" name="email" placeholder="Email Address" required>
+            </div>
+
+            <div class="form-group">
+              <input type="text" name="phone" placeholder="Phone Number">
+            </div>
+
+            <div class="form-group">
+              <textarea name="message" rows="5" placeholder="Write your message..." required></textarea>
+            </div>
+
+            <button type="submit" class="contact-btn">
+              Send Message <i class="fa-solid fa-location-arrow"></i>
+            </button>
+          </form>
+
+
+
+
+        </div>
+
+
+
+        <div class="contact-map">
+          <iframe
+            src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3655.4843578378463!2d72.39799317470772!3d23.622818978757667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395c43be6a92db09%3A0x36e7882819988eb9!2sJCF2%2B469%20shiv%20kutir%20society%2C%20railway%20crossing%2C%20A%2F3%2C%20Visnagar%20Link%20Rd%2C%20near%20amarpura%2C%20Amarpura%2C%20Mehsana%2C%20Gujarat%20384001!5e0!3m2!1sen!2sin!4v1772428224509!5m2!1sen!2sin"
+            width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+            referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+      </div>
+
+    </div>
+  </section>
+
+
+
+  <section class="contact" data-aos="zoom-in" data-aos-duration="1000">
+    <div class="">
+
+      <div class="section-top">
+        <span class="story-dot"></span>
+        <p class="mt-3">LET'S TALK</p>
+      </div>
+
+      <hr>
+
+      <div class="contact-wrapper">
+
+        <div class="left">
+          <h1 class="logo-2">
+            Akshay<span> Bloom</span>
+          </h1>
+
+          <p class="tagline">
+            Crafting timeless brands with purpose.
+          </p>
+
+          <img src="img/udaipur2.jpg" alt="profile" class="profile-img">
+        </div>
+
+        <div class="right">
+          <h2>Let's Work Together</h2>
+          <a href="mailto:solankiakshay8980@gmail.com" class="email">
+            solankiakshay8980@gmail.com
+          </a>
+
+          <h3>Follow Me</h3>
+
+          <div class="socials">
+            <a href="https://wa.me/918980309507" target="_blank" class="icon text-decoration-none"><i
+                class="fa-brands fa-whatsapp"></i></a>
+            <a href="https://www.linkedin.com/in/solanki-akshay-2384b4353?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app"
+              target="_blank" class="icon text-decoration-none"><i class="fa-brands fa-linkedin"></i></a>
+            <a href="https://www.facebook.com/akshaysolanki.akshaysolanki.7" target="_blank" class="icon text-decoration-none"><i class="fa-brands fa-facebook"></i></a>
+            <a href="https://www.instagram.com/akshay_solanki_4075?igsh=ODZkOGkwYTV2OTdy" target="_blank"
+              class="icon text-decoration-none"><i class="fa-brands fa-instagram"></i></a>
+          </div>
+          <hr class="bottom-line">
+          <p class="copyright">
+            © Copyright: 2026 , All Right Reserved <i class="fa-solid fa-heart"></i> Designed By - Akshay Bloom
+          </p>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+  <script src="js/bootstrap.bundle.min.js"></script>
+  <script src="js/aos.js"></script>
+  <script>
+    AOS.init();
+  </script>
+</body>
+
+</html>
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+
+  font-family: "Work Sans", sans-serif;
+  font-optical-sizing: auto;
+  /* font-weight: weight; */
+  font-style: normal;
+}
+
+
+body {
+  background: #fff;
+  color: #111;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 8%;
+}
+
+.logo {
+  font-weight: 600;
+  font-size: 24px;
+}
+
+.logo span {
+  color: #7ED321;
+
+}
+
+nav a {
+  margin-left: 30px;
+  text-decoration: none;
+  color: #333;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+nav a.active {
+  color: #7ED321;
+}
+
+
+.hero {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 60px 8%;
+  min-height: 85vh;
+} 
+
+.hero p {
+  font-size: 20px;
+}
+
+.hero-left {
+  max-width: 600px;
+}
+
+.hero-left h4 {
+  color: #7ED321;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+
+.hero-left h1 {
+  font-size: 64px;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-bottom: 30px;
+}
+.btn-contact-me{
+  padding:10px 20px;
+  background:#7ED321;
+  color:#000;
+  border:2px solid #7ED321;
+  border-radius:25px;
+  font-size:16px;
+  font-weight:500;
+  transition:0.4s ease;
+}
+
+.btn-contact-me:hover{
+  background:transparent;
+  color:#7ED321;
+  box-shadow:0 0 15px rgba(126,211,33,0.5);
+}
+.btn-contact-me {
+  color: #fff;
+}
+.btn-view-projects{
+  background: #fff;
+  color: #000;
+  padding: 12px 32px;
+  border: 1px solid #000000;
+  border-radius: 50px;
+  font-size: 16px;
+  font-weight: 600;
+  transition: 0.4s ease;
+}
+
+.btn-view-projects:hover{
+  background: #000;
+  color: #7ED321;
+  border-color: #7ED321;
+  transform: translateY(-5px) scale(1.05);
+  box-shadow:
+    0 0 10px rgba(126,211,33,0.4),
+    0 0 25px rgba(126,211,33,0.3);
+}
+
+.highlight {
+  background: #7ED321;
+  color: white;
+  padding: 5px 12px;
+  font-size: 20px;
+  border-radius: 3px;
+
+}
+
+.hero-right img {
+  width: 420px;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.hero-right img:hover {
+  transform: rotate(-3deg);
+  transition: 0.5s;
+}
+
+.cta {
+  background: #7ED321; 
+  padding: 100px 20px;
+  text-align: center;
+  color: #fff;
+}
+
+.cta h2 {
+  font-size: 40px;
+  font-weight: 500;
+  margin-bottom: 30px;
+}
+
+
+.btn {
+  display: inline-block;
+  background: #fff;
+  color: #7ED321;
+  padding: 12px 25px;
+  border-radius: 30px;
+  text-decoration: none;
+  font-size: 16px;
+  transition: 0.3s;
+}
+
+.btn i {
+  margin-right: 8px;
+}
+
+.btn:hover {
+  background: black;
+  color: #7ED321;
+  transition: 0.5s;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #ffffff;
+}
+
+.about {
+  padding: 80px 8%;
+  background: #ffffff;
+}
+
+
+
+.about-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 20px;
+}
+
+.story-dot {
+  width: 15px;
+  height: 15px;
+  background: #7ED321;
+  border-radius: 50%;
+}
+
+.story-text {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+hr {
+  border: none;
+  border-top: 2px solid #000000 !important;
+  margin-bottom: 40px;
+}
+
+.about-content {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.about-left h2 {
+  font-size: 34px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.about-left h1 {
+  font-size: 42px;
+  font-weight: 400 !important;
+}
+
+.about-left span {
+  color: #7ED321;
+}
+
+.about-right {
+  max-width: 530px;
+}
+
+.big-text {
+  font-size: 22px;
+  color: #666;
+  margin-bottom: 25px;
+  line-height: 1.6;
+}
+
+.small-text {
+  color: #777;
+  line-height: 1.7;
+  margin-bottom: 30px;
+}
+
+.learn-btn {
+  padding: 14px 30px;
+  background: #7ED321;
+  border: none;
+  border-radius: 30px;
+  color: white;
+  font-size: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+.learn-btn:hover{
+  background-color: #000000 ;
+  cursor: pointer;
+}
+
+.learn-btn:hover i {
+  transform: rotate(45deg);
+  transition: 0.5s;
+  
+}
+.learn-btn i{
+  font-size: 16px;
+}
+
+
+
+.expertise {
+  padding: 80px 8%;
+  background: #ffffff;
+}
+
+/* .container {
+  max-width: 1200px;
+  margin: auto;
+} */
+
+.section-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+
+
+.section-top p {
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin-bottom: 40px;
+}
+
+.title {
+  font-size: 34px;
+  margin-bottom: 40px;
+  font-weight: 600;
+}
+
+.icon-box {
+  border: 1px solid #D2D2D2;
+  padding: 20px;
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  transition: 0.5s;
+
+}
+
+.expertise-icon i {
+  height:45px;
+  width: 45px;
+  background-color: #6ac000;
+  color: #fff;
+  font-size: 30px;
+  border-radius: 3px;
+  align-items: center;
+  justify-content: center;
+  display: flex;
+}
+
+.expertise-icon span {
+  font-size: 20px;
+}
+
+
+/* .expertise-icon .icon-box:hover {
+  background-color: black;
+  color: #fff;
+  transform: rotate(-3deg);
+  transition: 0.5s;
+} */
+ .expertise-icon .icon-box{
+  transition: 0.5s;
+  transform-style: preserve-3d;
+}
+
+.expertise-icon .icon-box:hover{
+  transform: perspective(1000px) rotateX(10deg) rotateY(-10deg);
+  box-shadow: 0 20px 25px rgba(0,0,0,0.3);
+}
+ .expertise-icon .icon-box{
+  transition: 0.4s;
+}
+
+.expertise-icon .icon-box i{
+  transition: 0.5s;
+}
+
+.expertise-icon .icon-box:hover{
+  background: #76c900;
+  color: #fff;
+}
+
+.expertise-icon .icon-box:hover i{
+  transform: rotate(360deg) scale(1.2);
+}
+
+
+
+
+.contact {
+  padding: 50px 8%;
+}
+
+
+
+.section-top {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  margin-bottom: 15px;
+}
+
+
+
+hr {
+  border: none;
+  border-top: 1px solid #ccc;
+  margin-bottom: 50px;
+}
+
+.contact-wrapper {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+
+.logo-2 {
+  font-size: 45px;
+  font-weight: 700;
+  margin-bottom: 10px;
+}
+
+.logo-2 span {
+  color: #7ED321;
+}
+
+.tagline {
+  color: #666;
+  margin-bottom: 30px;
+  font-size: 18px;
+}
+
+.profile-img {
+  width: 200px;
+  border-radius: 4px;
+}
+
+
+.right h2 {
+  font-size: 38px;
+  margin-bottom: 15px;
+  font-weight: 600;
+}
+
+.email {
+  color: #7ED321;
+  font-size: 22px;
+  text-decoration: none;
+  display: inline-block;
+  margin-bottom: 40px;
+}
+
+.right h3 {
+  font-size: 32px;
+  margin-bottom: 20px;
+  font-weight: 600;
+}
+
+.socials {
+  display: flex;
+  gap: 20px;
+}
+
+
+.icon {
+  width: 50px;
+  height: 50px;
+  border: 1px solid #000;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 600;
+  cursor: pointer;
+  transition: 0.3s;
+  color: #000000;
+}
+
+.icon:hover {
+  background: #7ED321;
+  color: #fff;
+  border-color: #7ED321;
+  scale: calc(120%);
+}
+
+.bottom-line {
+  margin-top: 30px;
+}
+
+.copyright {
+  text-align: center;
+  color: #666;
+}
+
+.copyright i {
+  color: #7ED321;
+}
+
+
+
+body {
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+  background: #ffffff;
+}
+
+.spotlight {
+  padding: 60px 8%;
+  min-height: 85vh;
+}
+
+
+
+.spotlight-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.spotlight-left {
+  max-width: 600px;
+}
+
+.spotlight-left h1 {
+  font-size: 50px;
+  font-weight: 700;
+  margin-bottom: 25px;
+}
+
+.big-text {
+  font-size: 20px;
+  color: #666;
+  line-height: 1.6;
+  margin-bottom: 25px;
+}
+
+.small-text {
+  font-size: 16px;
+  color: #777;
+  line-height: 1.7;
+  margin-bottom: 35px;
+}
+
+
+.btn-contact {
+  display: inline-block;
+  padding: 14px 30px;
+  background: #7ED321;
+  color: white;
+  text-decoration: none;
+  border-radius: 30px;
+  font-weight: 500;
+  transition: 0.3s;
+}
+.btn-contact:hover{
+  background-color: #000000 !important;
+  cursor: pointer;
+}
+.btn-contact:hover i{
+  transform: rotate(45deg);
+  transition: 0.5s;
+}
+
+
+
+.spotlight-right img {
+  width: 420px;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px rgba(0, 0, 0, 0.1);
+}
+
+.spotlight-right img:hover {
+  transform: rotate(-3deg);
+  transition: 0.5s;
+}
+
+
+
+
+
+.qualification {
+  padding: 80px 8%;
+  background: #f4f4f4;
+}
+
+
+
+
+.small-title {
+  font-size: 18px;
+  font-weight: 600;
+  letter-spacing: 1px;
+}
+
+.story-dot {
+  display: inline-block;
+  width: 10px;
+  height: 10px;
+  background: #7ED321;
+  border-radius: 50%;
+  margin-right: 10px;
+}
+
+hr {
+  margin: 20px 0 60px;
+  border: none;
+  border-top: 1px solid #ccc;
+}
+
+
+.qualification-content {
+  display: flex;
+  gap: 80px;
+}
+
+
+.qualification-left h1 {
+  font-size: 40px;
+  font-weight: 700;
+}
+
+.qualification-right {
+  flex: 1;
+}
+
+
+.edu-item {
+  display: flex;
+  gap: 50px;
+  margin-bottom: 50px;
+}
+
+.year {
+  font-weight: 600;
+  font-size: 20px;
+  min-width: 120px;
+}
+
+.details h3 {
+  margin: 0 0 10px;
+  font-size: 22px;
+}
+
+.details p {
+  margin: 3px 0;
+  color: #777;
+  font-size: 15px;
+}
+
+
+.details.active {
+  position: relative;
+}
+
+.one {
+  animation-delay: 0.5s;
+}
+
+
+
+
+
+.contact-section {
+  padding: 100px 8%;
+  background: #fff;
+}
+
+
+
+.contact-title {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 60px;
+}
+
+.contact-boxes {
+  display: flex;
+  gap: 30px;
+  flex-wrap: wrap;
+}
+
+.contact-card {
+  flex: 1;
+  min-width: 300px;
+  background: #e9e9e9;
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  transition: 0.3s ease;
+}
+
+.contact-card:hover i{
+  color: black;
+  transform: scale(1.1);
+}
+.contact-card:hover .contact-icon{
+  background-color: #7ED321;
+}
+ 
+
+.contact-icon {
+  width: 60px;
+  height: 60px;
+  background: black;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.contact-icon i {
+  color: #7ED321;
+  font-size: 20px;
+}
+
+.info h3 {
+  margin: 0;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.info p {
+  margin: 5px 0 0;
+  color: #555;
+} 
+
+
+
+
+
+.contact-area {
+  padding: 80px 8%;
+}
+
+
+
+.contact-wrapper {
+  display: flex;
+  gap: 40px;
+}
+
+
+.contact-form {
+  flex: 1;
+}
+.contact-form {
+  max-width: 600px;
+}
+
+.form-group {
+  margin-bottom: 20px;
+}
+
+.form-group input,
+.form-group textarea {
+  width: 100%;
+  padding: 14px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  outline: none;
+  font-size: 14px;
+  transition: 0.3s;
+  background: #f9f9f9;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+  border-color: #7ED321;
+  box-shadow: 0 0 0 3px rgba(126, 211, 33, 0.1);
+  background: #fff;
+}
+
+.contact-btn {
+  width: 100%;
+  padding: 15px;
+  border: none;
+  border-radius: 8px;
+  background: black;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.contact-btn:hover i{
+  transform: rotate(45deg);
+  transition: 0.5s;
+}
+.contact-btn:hover {
+  background: #7ED321;
+}
+
+
+/* .project{
+padding: 80px 8%;
+background-color: #ffffff;
+} */
+
+
+.contact-map {
+  flex: 1;
+}
+
+.contact-map iframe {
+  width: 100%;
+  height: 100%;
+  min-height: 500px;
+  border: none;
+}
+
+ 
+
+.projects h2 {
+  text-align: center;
+  margin-bottom: 30px;
+  font-size: 2.5rem;
+}
+.projects {
+  padding: 50px 20px ;
+  background: #f5f5f5;
+}
+
+
+.project-grid {
+  max-width: 900px;   
+  margin: auto;   
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  grid-auto-rows: 150px;
+  gap: 50px;
+}
+
+
+.project.big {
+  grid-column: span 2;
+  grid-row: span 2;
+}
+
+
+.project {
+  position: relative;
+  overflow: hidden;
+  border-radius: 15px;
+  display: block;
+}
+
+
+.project img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  display: block;
+}
+
+
+.overlay {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  padding: 15px;
+  background: rgba(0,0,0,0.6);
+  color: #fff;
+  transition: 0.3s;
+}
+
+
+.project:hover .overlay {
+  background: rgba(0,0,0,0.8);
+}
+
+.project img {
+  transition: 0.4s;
+}
+
+.project:hover img {
+  transform: scale(1.1);
+}

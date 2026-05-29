@@ -39,7 +39,7 @@ header .btn {
 }
 
 section.home {
-    background: linear-gradient(rgba(0, 0, 0, 0.55), rgba(0, 0, 0, 0.55)), url(img/beach2.jpg);
+    background: linear-gradient(rgba(21, 21, 21, 0.6), rgba(35, 35, 35, 0.8)), url(img/beach3.jfif);
     height: auto;
     width: 100%;
     background-position: center;
@@ -55,15 +55,14 @@ section.home {
 .home-content {
     max-width: 700px;
     color: #fff;
+    padding: 20px;
 }
 
 .top-badge {
     display: inline-flex;
     align-items: center;
     gap: 10px;
-
-    padding: 12px 22px;
-
+    padding: 10px 12px; 
     border: 1px solid rgba(0, 255, 255, 0.4);
     border-radius: 40px;
 
@@ -76,10 +75,9 @@ section.home {
 }
 
 .home-content h1 {
-    font-size: 85px;
+    font-size: 70px;
     line-height: 1.05;
     font-weight: 800;
-
     margin-bottom: 25px;
 }
 
@@ -91,13 +89,10 @@ section.home {
 }
 
 .home-content p {
-    font-size: 24px;
+    font-size: 20px;
     line-height: 1.6;
-
     color: #ddd;
-
     max-width: 650px;
-
     margin-bottom: 45px;
 }
 
@@ -146,3 +141,10 @@ section.home {
     background: #fff;
     color: #000;
 }
+.home-content .destination h1{
+    font-size: 45px;
+}
+.home-content .destination p{
+    font-size: 18px;
+}
+ 
